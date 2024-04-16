@@ -187,3 +187,18 @@ input:is(:focus) {
     border-color: transparent;
   }
 }
+
+.tab-div {
+  position: relative;
+  min-height: 100vh;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--glass);
+  gap: 12px;
+}
+
